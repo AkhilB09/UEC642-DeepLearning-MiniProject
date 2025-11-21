@@ -26,7 +26,7 @@ Traditional fine-tuning of Vision Transformers (ViT) requires updating all model
 | **Trainable Params** | ~28,000,000 (100%) | **~300,000 (1%)** |
 | **Model Size** | ~110 MB | **~1.2 MB (Adapters)** |
 | **Accuracy** | ~98.5% | **~98.2% (Comparable)** |
-| **Training Device** | High-End GPU Required | **Consumer GPU / Colab T4** |
+| **Training Device** | High-End GPU Required | **Colab T4** |
 
 ---
 
@@ -34,12 +34,12 @@ Traditional fine-tuning of Vision Transformers (ViT) requires updating all model
 
 ```text
  LoRA-Swin-Plant-Disease
- ┣  results               # Generated Output Images & Models
+ ┣  results               
  ┃ ┣  confusion_matrix.png
  ┃ ┣  grad_cam.png
  ┃ ┣  training_curve.png
- ┃ ┗  lora_adapters     # Saved model weights
- ┣  train.py              # Main training script (LoRA injection)
- ┣  evaluate.py           # Evaluation & Visualization (Grad-CAM)
- ┣  requirements.txt      # Dependencies
- ┗  README.md             # Project Documentation
+ ┃ ┗  lora_adapters     
+ ┣  train.py              
+ ┣  evaluate.py          
+ ┣  requirements.txt      
+ ┗  README.md             
